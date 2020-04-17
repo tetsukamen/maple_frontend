@@ -1,0 +1,13 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Taro Yamada",
+      "age": 23,
+      "lang": [
+        "javascript",
+        "python"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<div *ngIf="user" class="container">
+  <div>user:{{user.name}}</div>
+  <div>age:{{user.age}}</div>
+  <div class="row">
+    <div class="col-3">lang</div>
+    <div class="col-9">
+      <div *ngFor="let lang of user.lang">{{lang}}</div>
+    </div>
+  </div>
+</div>
